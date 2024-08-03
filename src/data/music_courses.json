@@ -1,0 +1,35 @@
+{
+    "courses":[
+        {
+            "id":1,
+            "title":"Introduction to Devops",
+            "description": " Welcome to new era of deployment where you can learn Docker ,kubernates,AWS, and many more options f deploymnet",
+            "duration":"60",
+            "instructor":"John Doe",
+            "isFeatured": true
+        },
+        {
+            "id":1,
+            "title":"Introduction to Nodejs",
+            "description": " Welcome to new era of deployment where you can learn Docker ,kubernates,AWS, and many more options f deploymnet",
+            "duration":60,
+            "instructor":"James",
+            "isFeatured": true
+        },
+        {
+            "id":1,
+            "title":"Introduction to JavaScript",
+            "description": " Welcome to new era of deployment where you can learn Docker ,kubernates,AWS, and many more options f deploymnet",
+            "duration":60,
+            "instructor":"Micheal",
+            "isFeatured": true
+        },
+        {
+            "id":2,
+            "title":"Advanced JavaScript",
+            "duration":90,
+            "instructor":"Jane Smith",
+            "isFeatured": false
+        }
+    ]
+}

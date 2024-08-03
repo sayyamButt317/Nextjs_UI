@@ -1,0 +1,5 @@
+// install libray from acceternity for ui
+npm i framer-motion clsx tailwind-merge
+
+//add dark mode in tailwind.config
+ darkMode: "class",
