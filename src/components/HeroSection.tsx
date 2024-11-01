@@ -29,7 +29,9 @@ function HeroSection() {
                     </Link>
             
                 </div>
+                
             </div>
+            
         </div>
     )
 }
