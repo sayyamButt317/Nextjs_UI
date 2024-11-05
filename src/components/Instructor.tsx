@@ -2,6 +2,8 @@
 import React from 'react'
 import { WavyBackground } from './ui/wavy-background'
 import { AnimatedTooltip } from "./ui/animated-tooltip";
+import Link from 'next/link';
+import { Button } from './ui/moving-border';
 
 const people = [
     {
@@ -35,14 +37,14 @@ const people = [
     {
       id: 5,
       name: "Tyler Durden",
-      designation: "Soap Developer",
+      designation: "Sales Head",
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
     },
     {
       id: 6,
-      name: "Dora",
-      designation: "The Explorer",
+      name: "Maryam",
+      designation: "DevOps Engineer",
       image:
         "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
     },
@@ -50,15 +52,18 @@ const people = [
 function Instructor() {
     
   return (
-    <div className='relative h-[40rem] overflow-hidden flex items-center justify-center'>
+    <div className='relative h-[50rem] overflow-hidden flex items-center justify-center'>
 
 <WavyBackground className='w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full '>
 <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">Meet Our Experienced Team</h1>
-    <p className='text-base md:text-lg text-white text-center mb-4 '>Discover the Talented Professionals who will guide your musical Journey</p>
+    <p className='text-base md:text-lg text-white text-center mb-4 '>Discover the Talented Professionals who will manage your Digital Bussiness Solutions</p>
+    <p className='text-base md:text-lg text-white text-center mb-4 '>& make you standOut</p>
     <div className='flex flex-row items-center justify-center mb-10 w-full   '>
     <AnimatedTooltip items={people} />
     </div>
+    
     </WavyBackground>
+
     </div>
   )
 }

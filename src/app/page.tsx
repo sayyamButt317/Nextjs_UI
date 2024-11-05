@@ -10,7 +10,8 @@ import LandingDesign from "@/components/landingDesignImage";
 export default function Home() {
   return (
 <main className=" main-h-screen bg-black/[0.96] antialised bg-grid-white/[0.02]">
-<HeroSection />
+{/* <HeroSection /> */}
+<Instructor/>
 <LandingDesign/>
 <FeaturedCourses/>
 <WhyChooseUs/>
